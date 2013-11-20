@@ -41,6 +41,7 @@ public class StandardProcessOperations implements ProcessOperations
 
     private static final int    SLEEP_KILL_TIME_MS = 100;
     private static final int    SLEEP_KILL_WAIT_COUNT = 3;
+    private static String OS = null;
 
     public StandardProcessOperations(Exhibitor exhibitor) throws IOException
     {
